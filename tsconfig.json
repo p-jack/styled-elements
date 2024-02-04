@@ -1,5 +1,6 @@
 {
-  "include":["index.ts", "test/**/*.ts"],
+  "include":["index.ts", "index.test.ts"],
+  "exclude":["node_modules", "dist", "coverage"],
   "compilerOptions": {
     "outDir": "./dist/",
     "target": "ES2022",

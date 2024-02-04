@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import '@testing-library/jest-dom'
-import { styled, classed, addStyle, createWith } from "../index"
+import { styled, classed, addStyle, createWith } from "./index"
 
 function style() {
   return document.getElementById("styled-elements") as HTMLStyleElement
